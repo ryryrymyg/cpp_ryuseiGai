@@ -195,7 +195,8 @@ void in_vec(){
     vecs.at(obj) = nums;
   }
 
-    //cout << '[';//なぜかこれがあると動く
+    //cout << '[';
+    //なぜかこれがあると動く
     rep(i, (int)nums.size()){
       //cout << " " << nums.at(i);
       if(i+1 == (int)nums.size()){
